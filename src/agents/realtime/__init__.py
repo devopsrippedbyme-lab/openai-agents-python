@@ -28,6 +28,7 @@ from .events import (
     RealtimeHistoryUpdated,
     RealtimeRawModelEvent,
     RealtimeSessionEvent,
+    RealtimeToolApprovalRequired,
     RealtimeToolEnd,
     RealtimeToolStart,
 )
@@ -126,6 +127,7 @@ __all__ = [
     "RealtimeHistoryUpdated",
     "RealtimeRawModelEvent",
     "RealtimeSessionEvent",
+    "RealtimeToolApprovalRequired",
     "RealtimeToolEnd",
     "RealtimeToolStart",
     # Items
